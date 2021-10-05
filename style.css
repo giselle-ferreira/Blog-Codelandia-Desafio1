@@ -123,6 +123,7 @@ header .container.nav {
   background: rgba(255, 255, 255, 1);
   margin-bottom: 50px;
   border-radius: 10px;
+  position: relative;
 }
 
 .article-header {
@@ -139,47 +140,29 @@ header .container.nav {
 
 /*------ Start - "Like" button ------*/
 
-#toggle-heart1, #toggle-heart2,
-#toggle-heart3, #toggle-heart4 {
-  position: absolute;
-  left: -100vw;
+.btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: grey;
 }
 
-[for='toggle-heart1'] {
-  color: #aab8c2;
+#btnh1 i:hover{
   cursor: pointer;
 }
 
-[for='toggle-heart2'] {
-  color: #aab8c2;
+#btnh2 i:hover{
   cursor: pointer;
 }
 
-[for='toggle-heart3'] {
-  color: #aab8c2;
+#btnh3 i:hover{
   cursor: pointer;
 }
 
-[for='toggle-heart4'] {
-  color: #aab8c2;
+#btnh4 i:hover{
   cursor: pointer;
 }
 
-#toggle-heart1:checked + label {
-  color: #e2264d;
-} 
-
-#toggle-heart2:checked + label {
-  color: #e2264d;
-}
-
-#toggle-heart3:checked + label {
-  color: #e2264d;
-}
-
-#toggle-heart4:checked + label {
-  color: #e2264d;
-}
 
 /*------ End - "Like" button ------*/
 
