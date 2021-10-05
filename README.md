@@ -21,7 +21,7 @@
 <br>
 
 >## Website 💻
-+ [JordanShoes](https://jordanshoes-codelandia.netlify.app/)
++ [Blog Page](https://blog-codelandia.netlify.app/)
 
 <br>
 
