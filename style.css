@@ -103,6 +103,7 @@ header .container.nav {
   font-size: 18px;
   padding-left: 20px;
   color:rgba(255, 255, 255, 1);
+  outline: none;
 }
 
 .search-box input::placeholder {
